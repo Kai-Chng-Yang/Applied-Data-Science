@@ -1,0 +1,10 @@
+2020/11/20(五), 109學年第一學期 資料科學應用 R小考(1)
+
+學號:        姓名: 
+
+# (請依照規定)貼上執行程式碼及執行結果。
+詳見: R程式作業繳交方式
+http://www.hmwu.idv.tw/web/teaching/doc/R-how-homework.pdf
+
+> # ex1(a)
+
