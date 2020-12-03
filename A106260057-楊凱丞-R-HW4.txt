@@ -1,0 +1,24 @@
+> # 2020/11/27
+> # ex2.24
+> set.seed(123456)
+> score <- sample(1:100, 50, T)
+> ifelse(score >= 60 || score >= 90, 本次成績不調分，平均為: 55.78
+錯誤: unexpected input in "ifelse(score >= 60 || score >= 90, 本次成績不調分，"
+> ,  本次成績會調分, 不及格比例為: 60.67 %)
+錯誤: 未預期的 ',' in ","
+> # ex2.43
+> ComputeWeight.m <- function(x){
++    (x-80)*0.7,
+錯誤: 未預期的 ',' in:
+"ComputeWeight.m <- function(x){
+   (x-80)*0.7,"
+>    x=175}
+錯誤: 未預期的 '}' in "   x=175}"
+> ComputeWeight.f <- function(x){
++   (x-70)*0.6,
+錯誤: 未預期的 ',' in:
+"ComputeWeight.f <- function(x){
+  (x-70)*0.6,"
+>   x=166}
+錯誤: 未預期的 '}' in "  x=166}"
+> 
