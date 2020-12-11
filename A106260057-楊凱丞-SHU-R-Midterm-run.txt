@@ -1,0 +1,51 @@
+# 2020/12/11(五), 109學年第一學期 資料科學應用 R期中考
+
+學號:  A106260057      姓名: 楊凱丞
+
+# (請依照規定)貼上執行程式碼及執行結果。
+詳見: R程式作業繳交方式
+http://www.hmwu.idv.tw/web/teaching/doc/R-how-homework.pdf
+
+> # ex1(a)
+> study <- function(x){
++   Tuition <- 400*x + 600*y
++   ifelse( Tution > 12000, "*") 
++ }
+> 
+> # ex2(a)
+> library(readxl)
+> Score <- read_excel("1091-SHU-R-Midterm/Score-109.xlsx", skip = 1)
+> head(Score, 5)
+# A tibble: 5 x 3
+  ID    Calculus English
+  <chr> <chr>    <chr>  
+1 No.1  72       62     
+2 No.2  88       97     
+3 No.3  76       66     
+4 No.4  89       51     
+5 No.5  46       15     
+> tail(Score, 5)
+# A tibble: 5 x 3
+  ID    Calculus English
+  <chr> <chr>    <chr>  
+1 No.71 69       96     
+2 No.72 51       100    
+3 No.73 37       50     
+4 No.74 33       92     
+5 No.75 4        37     
+> 
+> # ex2(b)
+> 
+> # ex2(C)
+> my.cor <- function(x){
++   
++ }
+> 
+> 
+> # ex2(d)
+> 
+> # ex3(a)
+> my.dnorm <- function(x){
++   
++ }
+> 
