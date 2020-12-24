@@ -1,0 +1,28 @@
+2020/12/18(五), 109學年第一學期 資料科學應用 R作業(6)
+
+學號:A106260057        姓名: 楊凱丞
+
+> # ex2.9(a)
+> 
+> set.seed(12345)
+> number <- sample(0:100, 1000, replace=T)
+> 
+> even.for <- function(number){
++   
++   for(i in 1:100){
++     if((number %% 2) == 2){
++       yes <- TRUE
++     }
++     
++   }
++   number
++ }
+> even.for(100)
+[1] 100
+
+# ex2.9(b)
+# ex2.9(c)
+# ex2.53
+# ex2.62(a)
+# ex2.62(b)
+# ex2.62(c)
